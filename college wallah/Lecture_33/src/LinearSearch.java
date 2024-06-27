@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// 
+
 public class LinearSearch {
 
     static boolean search(int[] arr, int n , int x){
