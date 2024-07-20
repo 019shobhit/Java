@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4523bd18-165f-4bc9-8aa4-7f8ca75e7565" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/myfitstcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_10/Lecture_10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_11/Lecture_11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_12/Lecture_12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_13/Lecture_13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_14/Lecture_14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_14/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_15/Lecture_15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_16/Lecture_16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_17/Lecture_17.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_18/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_18/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_18/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_18/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_18/Lecture_18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_23/src/rectangleSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_3/Lecture_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_4/Lecture_4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_5/Lecture_5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_6/Lecture_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_6/src/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_6/src/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_6/src/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_6/src/agegroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_6/src/oddeven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_6/src/ternaryoperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_7/Lecture_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_8/Lecture_8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../college wallah/Lecture_9/Lecture_9.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2SHQK76Xnvno3C2k9CTveijXBnB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.practice.executor": "Run",
+    "Application.video35.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Shobit/myfitstcode",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.video35">
+    <configuration name="practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice" />
+      <module name="myfitstcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="video32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="video32" />
+      <module name="myfitstcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="video33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="video33" />
+      <module name="myfitstcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="video34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="video34" />
+      <module name="myfitstcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="video35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="video35" />
+      <module name="myfitstcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.video35" />
+        <item itemvalue="Application.practice" />
+        <item itemvalue="Application.video34" />
+        <item itemvalue="Application.video33" />
+        <item itemvalue="Application.video32" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4523bd18-165f-4bc9-8aa4-7f8ca75e7565" name="Changes" comment="" />
+      <created>1688800963072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688800963072</updated>
+    </task>
+    <servers />
+  </component>
+</project>
