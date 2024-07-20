@@ -41,18 +41,16 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        System.out.print("Enter size of array:");
-//        int n = sc.nextInt();
-//        int[] arr = new int[n];
-//        System.out.print("Enter the Array Elements:");
-//        for (int i = 0; i < n; i++) {
-//            arr[i] = sc.nextInt();
-//        }
-//        System.out.println("Array before sorted");
-//        printArray(arr);
-        int[] arr = {1,4,5,2,6,3,9};
-        int n = arr.length;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter size of array:");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        System.out.print("Enter the Array Elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        System.out.println("Array before sorted");
+        printArray(arr);
 
         System.out.println("Array After sort");
         quickSort(arr,0,n-1);
