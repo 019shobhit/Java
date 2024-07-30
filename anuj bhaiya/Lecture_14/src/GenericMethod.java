@@ -1,15 +1,13 @@
 public class GenericMethod {
-    public static void main(String[] args) {
-        printData("Hello shobhit");
-        printData(123);
-        printData(12.356);
 
+    public static void main(String[] args) {
+        printData(123);
+        printData("yuvgeifvgy");
         GenericMethod obj = new GenericMethod();
-//        obj.doubleData("juihjuh");
-        obj.doubleData(123);
-        obj.doubleData(12.56);
-        CustomClass c = new CustomClass();
-//        obj.doubleData(c);
+        obj.doubleData(12);
+
+        CustomClass c1= new CustomClass();
+//        obj.doubleData(c1);
     }
 
     static <E> void printData(E data){
