@@ -10,6 +10,7 @@ public class Implementation {
     static class SelfLinkedList{
         Node head;
         Node tail;
+        int size =0;
         void insertAtEnd(int data){
             Node temp = new Node(data);
             if(head == null){
@@ -19,16 +20,55 @@ public class Implementation {
                 tail.next = temp;
             }
             tail = temp;
+            size++;
         }
         void insertAtBegning(int data){
             Node temp = new Node(data);
-            if(temp == null){
-                head = null;
-            }else{
+            if(head != null){
                 temp.next = head;
-                head = temp;
             }
+            head = temp;
             tail = temp;
+            size++;
+        }
+        void insertinBetween(int idx , int data){
+            Node x = new Node(data);
+            Node temp = head;
+            if(idx == 0){
+                insertAtBegning(data);
+                return;
+            }
+            else if(idx == size){
+                insertAtEnd(data);
+                return;
+            }
+            for(int i=0;i<idx-1;i++){
+                temp = temp.next;
+            }
+            x.next = temp.next;
+            temp.next = x;
+            size ++;
+        }
+        void deleteAt(int idx){
+            if(idx == 0) {
+                head = head.next;
+                size--;
+                return;
+            }
+            Node temp = head;
+            for(int i=0;i<idx-1;i++){
+                temp = temp.next;
+            }
+            temp.next=temp.next.next;
+            if(idx == size) tail = temp;
+            size--;
+        }
+        int getValueAt(int idx){
+            Node temp = head;
+            for(int i=0;i<idx;i++){
+                temp= temp.next;
+            }
+            return temp.data;
         }
         void displayll(){
             Node temp = head;
@@ -36,32 +76,26 @@ public class Implementation {
                 System.out.print(temp.data+" ");
                 temp = temp .next;
             }
-        }
-        int size(){
-            int count =0;
-            Node temp = head;
-            while(temp != null){
-                count ++;
-                temp = temp.next;
-            }
-            return  count;
+            System.out.println();
         }
     }
 
     public static void main(String[] args) {
         SelfLinkedList ll = new SelfLinkedList();
-        ll.insertAtEnd(2);
-        ll.insertAtEnd(4);
-        ll.insertAtEnd(6);
+        ll.insertAtBegning(2);
+
+        ll.insertAtEnd(10);
+
+        ll.insertinBetween(1,5);
+        ll.insertinBetween(0,100);
+
         ll.displayll();
-        System.out.println();
-        ll.insertAtEnd(8);
-        ll.insertAtEnd(12);
-        ll.insertAtEnd(14);
+        System.out.println(ll.head.data);
+        System.out.println(ll.tail.data);
+        System.out.println(ll.getValueAt(2));
+
+        ll.deleteAt(2);
         ll.displayll();
-        System.out.println();
-//        System.out.println(ll.size());
-        ll.insertAtBegning(1);
-        ll.displayll();
+
     }
 }
