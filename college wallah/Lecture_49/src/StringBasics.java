@@ -7,5 +7,9 @@ public class StringBasics {
 //        String str = sc.next();
         String str = sc.nextLine();
         System.out.println(str);
+//        System.out.println(str.length());
+//        System.out.println(str.charAt(2));
+//        System.out.println(str.lastIndexOf("h"));
+        System.out.println(str.concat("chauhan"));
     }
 }
