@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SelectionSort {
+public class SelectionSort{
 
     static void sort(int [] arr){
         int n =arr.length;
