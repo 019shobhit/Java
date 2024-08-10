@@ -14,15 +14,18 @@
 
 public class Problem_1 {
 
-    static boolean isDivisionPossible(int mid){
-        
+    static boolean isDivisionPossible(int[] a,int m,int maxChocolate){
+        int numberOfStudents = 1;
+        for(int i=0;i<a.length;i++){
+
+        }
     }
 
-    static int distributeChocolate(int[] arr, int n){
+    static int distributeChocolate(int[] arr, int m){
         int ans = 0, st =1, end = (int)1e9;
         while(st<=end){
             int mid= st+(end-st)/2;
-            if(isDivisionPossible(mid)){
+            if(isDivisionPossible(arr,m,mid)){
 
             }
             else{
