@@ -3,6 +3,7 @@
 public class Question_6 {
     public static void main(String[] args) {
         String  str = "aaabbccccdddeeeffffxxxxxxxxxxxxxxxxxxxxy";
+
         char pc = str.charAt(0);
         String ans = ""+pc;
         int count = 1;
