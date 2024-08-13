@@ -1,18 +1,21 @@
-import java.util.Scanner;
-public class StudentClass {
-    //creating a new data type
-    static class student{
-        String name;
-        int roll_no;
-        double percent;
-    }
+public class StudentClass{
+
     public static void main(String[] args) {
-        student s1 = new student();
-        Scanner sc = new Scanner(System.in);
-        s1.name = "Shobhit";
-        s1.roll_no = 44;
-        s1.percent = 77.6;
+
+        Student s1 = new Student("Shobhit",44,77.50);
         System.out.println(s1.name);
+        System.out.println(s1.percent);
+        System.out.println(s1.rno);
+
+        System.out.println();
+
+        Student s2 = new Student("abhi",12,55.56);
+        System.out.println(s2.name);
+        System.out.println(s2.percent);
+        System.out.println(s2.rno);
+
+
+
 
     }
 }
