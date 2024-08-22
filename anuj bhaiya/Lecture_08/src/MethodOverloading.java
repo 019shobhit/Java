@@ -4,8 +4,7 @@ public class MethodOverloading {
         Greet obj = new Greet();
         obj.greetings();
         obj.greetings("Shobhit");
-        obj.greetings("Shobhit",5);
-
+        obj.greetings("Shobhit",2);
     }
 }
 
