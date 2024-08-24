@@ -21,7 +21,7 @@ public class Question_2 {
         }
         return temp;
     }
-    public static Node NthFromLast(Node head,int n){
+    public static Node NthNode2(Node head,int n){
         Node left = head;
         Node right =  head;
         for(int i=0;i<n;i++){
@@ -32,6 +32,33 @@ public class Question_2 {
             left = left.next;
         }
         return left;
+    }
+    public static void print(Node head){
+        Node temp = head;
+        while(temp != null){
+            System.out.print(temp.data+" -> ");
+            temp = temp.next;
+        }
+        System.out.println();
+    }
+    public static Node deleteNthFromEnd(Node head, int n){
+        Node left = head;
+        Node right = head;
+        for(int i=1;i<=n;i++){
+            right = right.next;
+        }
+        if(right == null){
+//            head.data = head.next.data;
+//            head.next = head.next.next;
+            head = head.next;
+            return head;
+        }
+        while(right.next != null){
+            right = right.next;
+            left = left.next;
+        }
+        left.next = left.next.next;
+        return head;
     }
 
     public static void main(String[] args) {
@@ -46,8 +73,11 @@ public class Question_2 {
         c.next = d;
         d.next = e;
         e.next = f;
-//        Node temp = NthNode(a,3);
-        Node temp = NthFromLast(a,3);
-        System.out.println(temp.data);
+
+        print(a);
+        deleteNthFromEnd(a,6);
+        a = deleteNthFromEnd(a,6);
+        print(a);
+
     }
 }
