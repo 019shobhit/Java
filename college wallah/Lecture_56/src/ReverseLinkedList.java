@@ -13,6 +13,15 @@ public class ReverseLinkedList {
         System.out.print(head.val+"  ");
         display(head.next);
     }
+    public static Node revrse(Node head){
+        if(head.next == null){
+            return head;
+        }
+        Node temp = revrse(head.next);
+        head.next.next = head;
+        head.next = null;
+        return  temp;
+    }
 
     public static void main(String[] args) {
         Node a = new Node(1);
@@ -26,6 +35,9 @@ public class ReverseLinkedList {
         c.next = d;
         d.next = e;
 
+        display(a);
+        a= revrse(a);
+        System.out.println();
         display(a);
     }
 }
