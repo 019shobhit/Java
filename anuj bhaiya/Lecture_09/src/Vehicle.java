@@ -1,5 +1,5 @@
 public class Vehicle {
-    final int gears =4;
+    int gears =4;
 
     public static void main(String[] args) {
         Vehicle  v = new Vehicle();
