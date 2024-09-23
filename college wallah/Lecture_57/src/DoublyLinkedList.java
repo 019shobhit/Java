@@ -36,16 +36,17 @@ public class DoublyLinkedList {
     public static Node insertionAtHead(Node head,int x){
         Node node = new Node(x);
         node.next = head;
+        head.prev = node;
         return node;
     }
-    public static void insertionAtTail(Node head,int x){
-        Node node = new Node(x);
+    public static void insertionAtTail(Node head, int x){
         Node temp = head;
         while(temp.next != null){
             temp = temp.next;
         }
-        temp.next = node;
+        Node node = new Node(x);
         node.prev = temp;
+        temp.next = node;
     }
     public static void main(String[] args) {
         Node n1 = new Node(10);
@@ -68,7 +69,7 @@ public class DoublyLinkedList {
 //        displayRandom(n3);
 
         Node head = insertionAtHead(n1,5);
-        display(head);
+        display2(n4);
         insertionAtTail(head,50);
         System.out.println();
         display(head);
