@@ -48,6 +48,18 @@ public class DoublyLinkedList {
         node.prev = temp;
         temp.next = node;
     }
+    public static void insertInBetween(Node head,int x,int n){
+        Node node = new Node(n);
+        Node temp = head;
+        while(temp.data != x){
+            temp = temp.next;
+        }
+        node.next = temp.next;
+        node.prev = temp;
+        temp.next.prev = node;
+        temp.next = node;
+
+    }
     public static void main(String[] args) {
         Node n1 = new Node(10);
         Node n2 = new Node(20);
@@ -72,6 +84,9 @@ public class DoublyLinkedList {
         display2(n4);
         insertionAtTail(head,50);
         System.out.println();
+        display(head);
+        System.out.println();
+        insertInBetween(head,30,35);
         display(head);
 
     }
