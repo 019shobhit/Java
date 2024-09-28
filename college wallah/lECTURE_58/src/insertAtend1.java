@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class insertAtend {
+public class insertAtEnd1 {
 
     public static void print(Stack<Integer> st){
         if(st.size() == 0) return;
