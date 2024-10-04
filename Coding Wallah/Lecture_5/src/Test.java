@@ -7,6 +7,16 @@ class Employee{
     private void totalSalary(){
         System.out.println(salary+incentive);
     }
+    String getName(){
+        return name;
+    }
+    int getSalary(){
+        return salary;
+    }
+    Employee(String name,int salary){
+        this.name = name;
+        this.salary = salary;
+    }
 }
 
 public class Test {
