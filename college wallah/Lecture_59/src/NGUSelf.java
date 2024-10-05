@@ -1,15 +1,15 @@
 import java.util.Stack;
 
-public class PreviousGreater {
+public class NGUSelf {
     public static void main(String[] args) {
-        int[] arr ={40,80,60,70,60,75,85};
-        Stack<Integer> st = new Stack<>();
+        int[] arr = {1,8,2,4,5,6,4,45,49,1,48,6};
         int n = arr.length;
         int[] ans = new int[n];
-        st.push(arr[0]);
-        ans[0] = -1;
-        for(int i=1;i<n;i++){
-            while(st.size() != 0 && st.peek() < arr[i]){
+        ans[n-1] = -1;
+        Stack<Integer> st = new Stack<>();
+        st.push(arr[n-1]);
+        for(int i=n-2;i>=0;i--){
+            while(st.size() > 0 && arr[i] >st.peek()){
                 st.pop();
             }
             if(st.size() == 0){
@@ -21,12 +21,8 @@ public class PreviousGreater {
                 st.push(arr[i]);
             }
         }
-        for(int i : arr){
-            System.out.print(i +" ");
-        }
-        System.out.println("");
         for(int i : ans){
-            System.out.print(i +" ");
+            System.out.print(i + " ");
         }
     }
 }
