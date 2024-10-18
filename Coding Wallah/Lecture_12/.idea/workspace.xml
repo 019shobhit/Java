@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c0e9643-3304-4f47-b012-584931013c54" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lecture_10/abc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_10/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_10/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.smarttomcat/Lecture_17/conf/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.smarttomcat/Lecture_17/conf/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.smarttomcat/Lecture_17/conf/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.smarttomcat/Lecture_17/conf/jaspic-providers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.smarttomcat/Lecture_17/conf/jaspic-providers.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.smarttomcat/Lecture_17/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.smarttomcat/Lecture_17/conf/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.smarttomcat/Lecture_17/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.smarttomcat/Lecture_17/conf/tomcat-users.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/.smarttomcat/Lecture_17/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_17/src/main/webapp/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2ncZ2Bp1YIMw88GH8z4YHKprWIc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Programming/Java/Coding Wallah/Lecture_15"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c0e9643-3304-4f47-b012-584931013c54" name="Changes" comment="" />
+      <created>1729274114808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729274114808</updated>
+    </task>
+    <servers />
+  </component>
+</project>

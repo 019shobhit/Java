@@ -1,18 +1,20 @@
-import java.util.Arrays;
+import java.io.*;
 
-public class Main {
-    public static void main(String[] args) {
-        int[] arr = {2,5,15,96,86};
-        int n = arr.length;
-        Arrays.sort(arr);
-        for(int i=0;i<n;i++){
-            for(int j=i+1;j<n;j++){
-                String s1 = String.valueOf(arr[i]);
-                String s2 = String.valueOf(arr[j]);
-                if((s1+s2)>(s2+s1)){
-
-                }
-            }
-        }
+public  class Main {
+    public static void main(String[] args) throws  Exception {
+        System.out.println("File Handling in Java");
+//        File file = new File("abc.txt");
+//        file.createNewFile();
+//        System.out.println(file.exists());
+//        FileWriter fw = new FileWriter("abc.txt");
+//        BufferedWriter bw = new BufferedWriter(fw);
+////        fw.write("Hi I am Shobhit Chauhan");
+////        fw.close();
+//        bw.write("Hello this is shobhit");
+//        bw.close();
+        FileReader fr = new FileReader("abbb.txt");
+        BufferedReader br = new BufferedReader(fr);
+        System.out.println(br.readLine());
+        fr.close();
     }
 }
