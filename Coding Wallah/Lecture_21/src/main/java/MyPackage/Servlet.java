@@ -6,6 +6,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+
 import java.io.IOException;
 
 /**
@@ -29,9 +31,26 @@ public class Servlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 //		response.getWriter().append("Servlet 1 ");
-//		response.sendRedirect("https://www.youtube.com/watch?v=lo8kdf3WRx0&list=PLhvdldYcnZMku_viVb2tU7NuW5DZxwIfw&index=21");
-		RequestDispatcher rd = request.getRequestDispatcher("Servlet2");
-		rd.forward(request, response);
+		String str1 = request.getParameter("username");
+		String str2 = request.getParameter("password");
+
+//		ways to create connect two Servlet
+//		RequestDispatcher rd = request.getRequestDispatcher("Servlet2");
+//		rd.forward(request, response);
+		
+		// URL Parameter
+		response.sendRedirect("Servlet2?d1="+str1+"&d2="+str2);
+		
+//		Request Attribute
+		request.setAttribute("d1", str1);
+		request.setAttribute("d2", str2);
+		
+//		Session Attribute
+//		HttpSession session = request.getSession();
+//		session.setAttribute("d1", str1);
+//		session.setAttribute("d2", str2);
+		
+		request.getRequestDispatcher("Servlet2").forward(request, response);
 	}
 
 	/**
@@ -39,7 +58,20 @@ public class Servlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+//		doGet(request, response);
+		String str1 = request.getParameter("username");
+		String str2 = request.getParameter("password");
+		
+//		Request Attribute
+		request.setAttribute("d1", str1);
+		request.setAttribute("d2", str2);
+		
+//		Session Attribute
+//		HttpSession session = request.getSession();
+//		session.setAttribute("d1", str1);
+//		session.setAttribute("d2", str2);
+		
+		request.getRequestDispatcher("Servlet2").forward(request, response);
 	}
 
 }

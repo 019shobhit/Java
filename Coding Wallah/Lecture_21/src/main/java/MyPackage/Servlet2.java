@@ -5,6 +5,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+
 import java.io.IOException;
 
 /**
@@ -27,7 +29,13 @@ public class Servlet2 extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Servlet 2");
+		// parameter
+//		String str1 = request.getParameter("d1");
+//		String str2 = request.getParameter("d2");
+		// Attribute
+		String str1 =(String) request.getAttribute("d1");
+		String str2 =(String) request.getAttribute("d2");
+		response.getWriter().append("Servlet 2 -> "+str1 +" "+str2);
 	}
 
 	/**
