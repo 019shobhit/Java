@@ -25,10 +25,19 @@ public class UserName extends HttpServlet {
 		int y = Integer.parseInt(num2);
 		int sum = x+y;
 
-		response.getWriter().append("<h1> The sum is: "+sum+"</h1>");
-		request.setAttribute("k", sum);
-		RequestDispatcher rd = request.getRequestDispatcher("sq");
-		rd.forward(request, response);
+//		response.getWriter().append("<h1> The sum is: "+sum+"</h1> <br> <form action='newServlet' method='get'> <button type=\"submit\">Add</button> </form>");
+		
+//		for calling outside url parameter
+//		response.sendRedirect("newServlet?Data="+sum);
+		
+//		for inside calling url parameter
+//		RequestDispatcher rd = request.getRequestDispatcher("newServlet");
+//		rd.forward(request, response);
+		
+//		request attribute
+		request.setAttribute("Data1", x);
+		request.setAttribute("Data1", y);
+		response.sendRedirect("newServlet");
 	}
 
 	

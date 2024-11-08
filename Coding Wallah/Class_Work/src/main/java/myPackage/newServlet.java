@@ -26,9 +26,16 @@ public class newServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		int n =(int)request.getAttribute("k");
-		response.getWriter().append("Square is: "+n*n);
+//		int n =(int)request.getAttributed"Sum");
+//		String d = request.getParameter("Data");
+//		String dd = request.getParameter("bb");
+		
+//		int n1 = (int)request.getAttribute("Data1");
+//		int n2 = (int)request.getAttribute("Data2");
+//		int sum = n1*n2;
+		int sum = 12;
+
+		response.getWriter().append("Servlet 2 is calling: <br> <h2> the square is :  "+sum+" </+h2>");
 	}
 
 	/**
