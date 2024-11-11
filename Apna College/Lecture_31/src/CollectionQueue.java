@@ -6,6 +6,7 @@ import java.util.Stack;
 class xyz{
     Stack<Integer> st1 = new Stack<>();
     Stack<Integer> st2 = new Stack<>();
+    Queue<Integer> q = new
 
     public boolean isEmpty(){
         return st1.isEmpty();
