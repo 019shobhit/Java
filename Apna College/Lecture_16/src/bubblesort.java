@@ -11,8 +11,10 @@ public class bubblesort {
                     int temp = arr[i];
                     arr[i] = arr[j];
                     arr[j] = temp;
+                    flag =1;
                 }
             }
+            if(flag == 0) break;
        }
 
         for(int i : arr){

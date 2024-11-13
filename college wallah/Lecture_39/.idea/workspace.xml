@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b80ae82-ae4c-4855-beb8-9077cb7b1835" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Apna College/Lecture_16/src/bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apna College/Lecture_16/src/bubblesort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_36/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_36/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_36/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_36/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_37/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_37/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lecture_37/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_37/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lecture_38/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_38/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lecture_38/src/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_38/src/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_40/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_40/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_40/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_40/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_41/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_41/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_42/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_42/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_44/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_44/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lecture_44/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_44/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lecture_45/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_45/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Programming/Java/college wallah/Lecture_41",
     "onboarding.tips.debug.path": "G:/Java/college wallah/Lecture_39/src/Main.java"
   }
 }]]></component>

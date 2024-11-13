@@ -6,6 +6,39 @@ public class MergeSort {
         mergrSort(arr,mid+1,r);
         merge(arr,l,mid,r);
     }
+    static void newMerge(int[] arr,int l,int r){
+        if(l>=r) return;
+        int mid = (l+r)/2;
+        newMerge(arr,l,mid);
+        newMerge(arr,mid+1,r);
+        newmrg(arr,l,mid,r);
+    }
+    static void newmrg(int[] arr,int l,int mid,int r){
+        int n1 = mid+1;
+        int n2 = r-mid;
+        int[] left = new int[n1];
+        int[] right = new int[n2];
+        int i,j,k;
+        for(i=0;i<n1;i++)left[i] = arr[i+l];
+        for(j=0;j<n2;j++)right[j] = arr[j+mid+1];
+        i =0;
+        j=0;
+        k=l;
+        while(i<n1 && j<n2){
+            if(left[i] < right[j]){
+                arr[k++] = left[i++];
+            }
+            else {
+                arr[k++] = right[j++];
+            }
+        }
+        while(i<n1){
+            arr[k++] = left[i++];
+        }
+        while(j<n2){
+            
+        }
+    }
     static void merge(int[] arr,int l, int mid, int r){
         int n1 = mid+1-l;
         int n2 = r-mid;
