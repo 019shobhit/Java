@@ -12,8 +12,8 @@ public class Number_pyramid {
             for(int k=1;k<=i;k++){
                 System.out.print(k);
             }
-            for(int l=i-1;l>=1;l--){
-                System.out.print(l);
+            for(int j=1;j<i;j++){
+                System.out.print(i-j);
             }
             System.out.println();
         }
