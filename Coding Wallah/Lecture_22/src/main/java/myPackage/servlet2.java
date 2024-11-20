@@ -1,4 +1,4 @@
-package myPackahe;
+package myPackage;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -8,16 +8,16 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Servlet implementation class MyServlet
+ * Servlet implementation class servlet2
  */
-@WebServlet("/MyServlet")
-public class MyServlet extends HttpServlet {
+@WebServlet("/servlet2")
+public class servlet2 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public MyServlet() {
+    public servlet2() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,9 +27,10 @@ public class MyServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		String username = request.getParameter("username");
-		String password = request.getParameter("password");
-		response.getWriter().append("DoGet is Calling username is :"+username+" and password is :"+password);
+		String str1=request.getParameter("d1");
+		String str2=request.getParameter("d2");
+		response.getWriter().append("Hello servlet 2 is calling "+str1+" "+str2);
+//		response.getWriter().append("Hello servlet 2 is calling");
 	}
 
 	/**
@@ -37,10 +38,7 @@ public class MyServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-//		doGet(request, response);
-		String username = request.getParameter("username");
-		String password = request.getParameter("password");
-		response.getWriter().append("DoGet is Calling username is :"+username+" and password is :"+password);
+		doGet(request, response);
 	}
 
 }
