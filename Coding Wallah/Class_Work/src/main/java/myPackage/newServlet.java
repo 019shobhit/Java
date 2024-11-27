@@ -25,7 +25,7 @@ public class newServlet extends HttpServlet {
 //		int sum = num1*num2;
 //		int sum = 12;
 
-		response.getWriter().append("Servlet 2 is calling: <br> <h2> the square is :  "+n+" </h2>");
+		response.getWriter().append("Servlet 2 is calling: <br> <h2> the square is :   </h2>");
 	}
 
 	/**

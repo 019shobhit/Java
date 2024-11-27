@@ -5,6 +5,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+
 import java.io.IOException;
 
 /**
@@ -27,8 +29,12 @@ public class servlet2 extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		String str1=request.getParameter("d1");
-		String str2=request.getParameter("d2");
+//		String str1=request.getParameter("d1");
+//		String str2=request.getParameter("d2");
+		
+		HttpSession session = request.getSession();
+		String str1=(String) session.getAttribute("a1");
+		String str2=(String) session.getAttribute("a2");
 		response.getWriter().append("Hello servlet 2 is calling "+str1+" "+str2);
 //		response.getWriter().append("Hello servlet 2 is calling");
 	}
