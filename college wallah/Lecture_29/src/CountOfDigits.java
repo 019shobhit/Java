@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class COuntOfDigits {
+public class CountOfDigits {
 
     static  int cd(int n ){
         if(n==0){
