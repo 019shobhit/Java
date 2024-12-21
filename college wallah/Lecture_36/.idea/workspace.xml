@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="696e2dcf-7c0d-4d78-a63b-e016a7f7212b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lecture_35/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_35/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.FrogJump.executor": "Run",
+    "Application.FrogJump2.executor": "Run",
     "Application.KeyPadCombination.executor": "Run",
+    "Application.KeypadCombination2.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -54,16 +57,5 @@
       <updated>1721455720127</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
