@@ -16,7 +16,7 @@ public class QuickSort {
     static int partition(int[] arr,int start,int end){
         int pivot = arr[start];
         int count=0;
-        for(int i=start+1;i<end;i++){
+        for(int i=start+1;i<=end;i++){
             if(arr[i]<pivot) count++;
         }
         int pivot_idx = start+count;
@@ -41,19 +41,12 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter size of array:");
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        System.out.print("Enter the Array Elements:");
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
+        int[] arr = {2,6,4,9,1,7,8};
         System.out.println("Array before sorted");
         printArray(arr);
 
         System.out.println("Array After sort");
-        quickSort(arr,0,n-1);
+        quickSort(arr,0,arr.length-1);
         printArray(arr);
 
     }
