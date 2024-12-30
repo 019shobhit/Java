@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b24e7d3d-ccc2-4a9b-a290-dd021c938e09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Apna College/Lecture_16/src/bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apna College/Lecture_16/src/bubblesort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lecture_36/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_36/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lecture_36/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_36/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lecture_37/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_37/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lecture_37/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_37/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lecture_40/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_40/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lecture_40/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_40/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lecture_41/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_41/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lecture_42/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_42/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +40,7 @@
     "Application.Question3Approach3.executor": "Run",
     "Application.SortArray.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
