@@ -1,6 +1,6 @@
 package practice;
 
-public class CountSort {
+public class RadixSort{
     public static void print(int[] arr){
         for(int i : arr){
             System.out.print(i+" ");
@@ -14,31 +14,36 @@ public class CountSort {
         }
         return mx;
     }
-    public static void countSort(int[] arr){
+    public static void countSort(int[] arr,int place){
         int[] ans = new int[arr.length];
-        int max = findMax(arr);
-        int[] ps = new int[max+1];
+        int[] ps = new int[10];
         for(int i : arr){
-            ps[i]++;
+            ps[(i/place)%10]++;
         }
-        int sum=0;
         for(int i=1;i<ps.length;i++){
             ps[i]+=ps[i-1];
         }
-        //
+        //.............................
         for(int i=arr.length-1;i>=0;i--){
-            int idx = ps[arr[i]]--;
+            int idx = ps[(arr[i]/place%10)]--;
             ans[idx-1]= arr[i];
         }
         for(int i=0;i<arr.length;i++){
             arr[i]= ans[i];
         }
     }
-    public static void main(String[] args) {
-        int[] arr = {1,2,1,2,3,4,3,2,3,1,4,4,2};
-        print(arr);
-        countSort(arr);
-        print(arr);
 
+    public static void sort(int[] arr){
+        int max = findMax(arr);
+        for(int i =1;max/i>0;i*=10){
+            countSort(arr,i);
+        }
     }
+    public static void main(String[] args) {
+        int[] arr = {123,234,345,765,432,222,9,23};
+        print(arr);
+        sort(arr);
+        print(arr);
+    }
+
 }

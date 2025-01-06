@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b24e7d3d-ccc2-4a9b-a290-dd021c938e09" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lecture_43/src/practice/CountSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture_43/src/practice/CountSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +36,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Question1.executor": "Run",
     "Application.Question2.executor": "Run",
+    "Application.Question3.executor": "Run",
     "Application.Question3Approach2.executor": "Run",
     "Application.Question3Approach3.executor": "Run",
     "Application.SortArray.executor": "Run",
@@ -44,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Programming/Java/college wallah/Lecture_45",
+    "last_opened_file_path": "D:/Programming/Java/college wallah/Lecture_46",
     "onboarding.tips.debug.path": "G:/Java/college wallah/Lecture_44/src/Main.java"
   }
 }]]></component>
