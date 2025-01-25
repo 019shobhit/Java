@@ -10,33 +10,22 @@ public class Problem_B_PrefixSumPrimes {
         int two=0;
         while(n-- > 0){
             int t = sc.nextInt();
-            if(t==1) one++;
-            else two++;
+            if(t==2) two++;
+            else one++;
         }
-        if(two ==0){
-            for( int i=0;i<one;i++){
-                System.out.print(1+" ");
-            }
-        }
-        else if( two ==1){
+        if(two > 0){
             System.out.print(2+" ");
-            for( int i=0;i<one;i++){
-                System.out.print(1+" ");
-            }
+            two --;
         }
-        else {
+        if(one > 0 ){
+            System.out.print(1+" ");
+            one--;
+        }
+        for(int i=0;i<two;i++){
             System.out.print(2+" ");
-            two--;
-            if(one > 1){
-                System.out.print(1+" ");
-                one--;
-            }
-            for( int i=0;i<two;i++){
-                System.out.print(2+" ");
-            }
-            for( int i=0;i<one;i++){
-                System.out.print(1+" ");
-            }
+        }
+        for(int j=0;j<one;j++){
+            System.out.print(1+" ");
         }
     }
 }
