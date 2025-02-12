@@ -1,15 +1,27 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import java.util.LinkedList;
+import java.util.Queue;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+public  class Main {
+    public static void main(String[] args) {
+        Queue<Integer> q1 = new LinkedList<>();
+        Queue<Integer> q2 = new LinkedList<>();
+        q1.add(10);
+        q1.add(20);
+        q1.add(30);
+        q1.add(40);
+        q1.add(50);
+        System.out.println(q1);
+
+        while(!q1.isEmpty()){
+            q2.add(q1.poll());
         }
+        while(!q2.isEmpty()){
+            int temp = q2.poll();
+            System.out.println(temp);
+            q1.add(temp);
+        }
+        System.out.println(q1);
+        System.out.println(q2);
+
     }
 }
